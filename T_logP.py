@@ -2,7 +2,7 @@ import numpy as np
 from netCDF4 import Dataset
 import matplotlib.pyplot as plt
 
-def T_logP(temp,pres,vp)  
+def T_logP(temp,pres,vp):
 
     fig = plt.figure(figsize=(25, 21), dpi=150)
     p = plt.plot(temp,pres,'r-');
